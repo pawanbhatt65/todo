@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Todo</title>
+    <script src="https://kit.fontawesome.com/f7950e1a81.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <style>
+        ul li {
+            margin: 10px 0;
+            padding: 10px 40px 10px 19px;
+            font-size: 30px;
+            color: #fff;
+            background-color: rgb(32, 32, 32);
+            overflow-wrap: break-word;
+            position: relative;
+        }
+
+        .fas.fa-times {
+            position: absolute;
+            right: 15px;
+            top: 23px;
+            font-size: 22px;
+        }
+
+        .demo {
+            text-decoration: line-through;
+            color: red;
+        }
+    </style>
+</head>
+
+<body class="bg-success">
+    <div class="container my-4">
+        <div class="box bg-white mx-auto p-3" style="width: 75%">
+            <input type="text" name="" id="item" class="form-control" autofocus>
+            <br>
+            <ul id="to-do-box" class="my-3 p-0 position-relative" style="list-style: none;">
+                <li>
+                    Hello<i class="fas fa-times"></i></li>
+            </ul>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
